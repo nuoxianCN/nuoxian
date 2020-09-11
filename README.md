@@ -1,2 +1,0 @@
-# nuoxian
-Noxian network.
