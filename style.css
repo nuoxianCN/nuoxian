@@ -35,7 +35,7 @@ body {
 	to {background-position:-1220px 0;}
 }
 .bgimg {
-	background:url(https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.0/img/pattern_bg.png) repeat;
+	background:url(https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.1/img/pattern_bg3.png) repeat;
 	width:100%;
 	position:fixed;
 	left:0;
@@ -43,10 +43,8 @@ body {
 	right:0;
 	top:0;
 	z-index:-9999;
-/* 背景图片移动
-	animation: bgscroll 40s infinite linear;
-	-webkit-animation: bgscroll 40s infinite linear;
-*/
+	animation: bgscroll 30s infinite linear;
+	-webkit-animation: bgscroll 30s infinite linear;
 }
 
 .overlaybg {position:fixed;left:0;right:0;top:0;bottom:0;z-index:-1;background: rgba(0, 0, 0, .2);}
