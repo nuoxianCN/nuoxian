@@ -43,7 +43,7 @@
 </script>
 
 <!-- CNZZ网站统计 -->
-<div style="width: 0px;height: 0xp;overflow: hidden;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1279263616&web_id=1279263616"></script></div>
+<script type="text/javascript">document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1279263616'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1279263616' type='text/javascript'%3E%3C/script%3E"));</script>
 </head>
 
 <body style="font-family: 'Arial','Microsoft YaHei','黑体','宋体',sans-serif;">
@@ -90,7 +90,7 @@
 </nav>
 
 <!--开始音乐加载-->
-<div id="aplayer" class="aplayer" data-order="random" data-id="20173709" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
+<div id="aplayer" class="aplayer" data-order="random" data-id="887245009" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8"></div>
 
 <script src="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@v1.0.0/js/APlayer.min.js"></script><!-- https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js -->
 <script src="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@v1.0.0/js/Meting.min.js"></script><!-- https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js -->
@@ -99,14 +99,16 @@
 
 <!-- 发送Console控制台 -->
 <script src="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@v1.0.0/js/nuoxian.js"></script>
+
+<!-- 获取API仙言内容 -->
 <script type="text/javascript" src="http://api.nxvav.cn/xianyan/?encode=js&charset=utf-8"></script>
+
 <!-- 首页介绍 -->
 <div id="home-page">
 	<div class="containerhome">
 		<div class="container">
 		<div class="logo"><img alt="首页LOGO" src="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@v1.0.0/img/logo.png" /></div>
 		<br />
-		<p class="sitedesc">Create for nothing but interest.</p>
 		<p class="sitedesc">The strong is not the winner, the winner is the strong.</p>
 		<p class="sitedesc">仙言：<script>nuoxian()</script></p>
 		</div>
@@ -196,8 +198,9 @@
 				<div class="contact-form">     
                           <div class="control-submit">
 							<button id="kaygb-mail" class="btn btn-danger">电子邮件</button>
-                          </div>
-                     </div>
+						  </div>
+					 </div>
+			</div>
 			</div>
 
 			<!-- 内置窗口js -->
@@ -213,7 +216,7 @@
 						title: '诺仙网络',
 						shadeClose: true,
 						shade: false,
-						maxmin: false, //开启最大化最小化按钮
+						maxmin: true, //开启最大化最小化按钮
 						area: ['80%', '100%'],
 						content: 'https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=1428309052@qq.com'
 					});
