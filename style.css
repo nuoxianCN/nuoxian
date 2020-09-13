@@ -12,7 +12,7 @@ body {
 }
 
 .stilo {
-	color:#ccc7a9 !important;
+	color:#8b8770 !important;
 }
 
 /*加载画面*/
@@ -434,7 +434,7 @@ body {
 	height:50px;
 	background: rgba(28, 28, 28, .5);
 	position:absolute;
-	top:0;
+	top:10px;
 	left:50%;
 	-webkit-transform: translateX(-50%);
 	-moz-transform: translateX(-50%);
