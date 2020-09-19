@@ -12,7 +12,7 @@ body {
 }
 
 .stilo {
-	color:#8b8770 !important;
+	color:#b34242 !important;
 }
 
 /*加载画面*/
@@ -27,15 +27,15 @@ body {
 /* == 02. Background Pattern & Overlay Color == */
 @keyframes bgscroll {
 	from {background-position:0 0;}
-	to {background-position:-1220px 0;}
+	to {background-position:-2000px 0;}
 }
 
 @-webkit-keyframes bgscroll {
 	from {background-position:0 0;}
-	to {background-position:-1220px 0;}
+	to {background-position:-2000px 0;}
 }
 .bgimg {
-	background:url(https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.1/img/pattern_bg2.png) repeat;
+	background:url(https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.2/img/pattern_bg.png) repeat;
 	width:100%;
 	position:fixed;
 	left:0;
