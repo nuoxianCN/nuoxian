@@ -26,7 +26,7 @@
     <!-- QQCard END -->
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.0/css/FiraCode.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.9/css/nuoxian.css">
+    <link rel="stylesheet" type="text/css" href="./nuoxian.css">
     <link rel="icon" type="image/x-icon" href="./favicon.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
     
@@ -40,6 +40,13 @@
 
         gtag('config', 'UA-173995101-2');
     </script>
+
+    <!-- 调用APlayer -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+
+	<!-- 调用MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 </head>
 
 <body>
@@ -54,13 +61,12 @@
             </div>
 
             <div class="meBox-text">
-                <p>一个帅气的人<img src="https://cdn.jsdelivr.net/gh/nuoxianCN/nuoxian-cdn@1.0.0/img/ax.png" alt="爱心" style="width: 20px; vertical-align: middle;"></p>
-                <p>喜欢玩各种游戏</p>
-                <p>现实是一个自闭的人呢</p>
+                <p>道可道，非常道；名可名，非常名。无名天地之始，有名万物之母。</p>
+                <p>故常无欲，以观其妙；常有欲，以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门。</p>
             </div>
 
             <div class="meBox-Button">
-                <a href="https://nxvav.cn/" class="fa fa-home"> Blog</a>
+                <a href="https://nxvav.cn/" class="fa fa-home"> Home</a>
                 <a href="mailto:nuo_xian@qq.com" class="fa fa-envelope"> E-mail</a>
             </div>
         </div>
@@ -119,9 +125,7 @@
                     <ul class="ul"> 
                         <li><a href="https://nxvav.cn/" target="_blank" class="fa fa-home"> 诺仙の客栈</a></li>
                         <li><a href="https://api.nxvav.cn/" target="_blank" class="fa fa-server"> nuoxian's API</a></li>
-                        <li><a href="https://play.nxvav.cn/" target="_blank" class="fa fa-play"> nuoxian's player</a></li>
                         <li><a href="https://one.nxvav.cn/" target="" class="fa fa-folder-open"> nuoxianCloud</a></li>
-                        <li><a href="https://sccnb.xyz/" target="_blank" class="fa fa-heart"> I love Tan Tianchen</a></li>
                     </ul>
                     <span style="color: rgb(0, 190, 0);">root@nuoxian</span>
                     <span style="color: blue;">~</span>
@@ -131,7 +135,7 @@
     </div>
 
     <div id="footer">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> nuoxian.</p>
+        <p>Copyright &copy;<script>document.write(new Date().getFullYear())</script> nuoxian.</p>
         <p><a href="https://beian.miit.gov.cn" target="_blank">赣ICP备2020011953号-1</a></p>
         <p><span id="runtime_span">已在风雨中经过: Loading...</span></p>
         <!-- 开始加载运行时间 -->
@@ -155,8 +159,6 @@
         </script>
         <!-- 加载运行时间结束 -->
     </div>
+    <meting-js server="netease" type="playlist" id="5174564916" fixed="true" autoplay="false" loop="all" order="list" preload="auto" list-folded="ture" list-max-height="200px"></meting-js>
 </body>
-<audio class="audio-player" autoplay loop>
-        <source src="https://api.nxvav.cn/api/163/?id=1818053920" type="audio/mpeg">
-</audio>
 </html>
